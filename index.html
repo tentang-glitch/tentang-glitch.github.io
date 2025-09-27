@@ -111,7 +111,19 @@
           </div>
         </div>
         <div class="row">
-          <div><image src="images/promo.png"></div>
+          <div>
+            <picture>
+              <source 
+                media="(min-width: 650px)"
+                srcset="images/promo.png">
+              <source 
+                media="(min-width: 465px)"
+                srcset="images/promo_m.png">
+              <img 
+                src="images/promo_m.png" 
+                alt="promo">
+            </picture>    
+          </div>
         </div>
       </div>
     </section>
