@@ -8338,6 +8338,8 @@ h1, h2, h3, h4, h5,
   .owl-carousel.home-slider .slider-item .overlay {
       pointer-events: none;}
   .owl-carousel.home-slider {
+  -webkit-overflow-scrolling: touch;}
+  .owl-carousel.home-slider {
     position: relative;
     height: 600px;
     z-index: 0; }
