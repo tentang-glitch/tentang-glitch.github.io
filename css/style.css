@@ -9737,3 +9737,16 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+/* FORCE navbar brand center (desktop & mobile) */
+.navbar-brand {
+  float: none !important;
+  display: block;
+  text-align: center !important;
+}
+
+.navbar-brand span {
+  display: block;
+  text-align: center;
+}
+
